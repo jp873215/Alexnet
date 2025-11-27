@@ -1,0 +1,11 @@
+fc: means fully connected layer
+
+conv2d: basically means to swipe the filter or kernel and extract the features and builds the feature map
+
+Stride is fcking is cool, if the stride is big number then the output feature map is smaller and vice versa
+Formula for stride: ((Input size - Kernal size + 2 * Padding) / stride) + 1
+
+BatchNorm2d: simply normalize the feature map that helps to process much faster and more stable
+
+MaxPool2d: picks the max value and reduces the width and height, the feature map is not disturbed
+
